@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "gp92b9NKYI1eiWUoIRh0YXJeI1xeUYCzKR7/qLjOgSC1crbsklvl21Xva1g5WToKpudwIUbSECh7AeVhTry6+g==",
+  "success": true,
+  "projectFilePath": "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/my_pc/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/xamarin.essentials/1.8.1/xamarin.essentials.1.8.1.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/xamarin.forms/5.0.0.2622/xamarin.forms.5.0.0.2622.nupkg.sha512"
+  ],
+  "logs": []
+}
