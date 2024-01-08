@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MVVMApp.Views.DBListPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="friendsList" ItemsSource="{Binding}" ItemSelected="friendsList_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Name}" FontSize="Medium" />
+				                </StackLayout>
+			                </ViewCell.View>
+			            </ViewCell>
+		            </DataTemplate>
+		        </ListView.ItemTemplate>
+	        </ListView>
+             <ListView x:Name="friendsList2" ItemsSource="{Binding}" ItemSelected="friendsList2_ItemSelected" Margin="0, -400, 0, 0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Name}" FontSize="Medium" />
+				                </StackLayout>
+			                </ViewCell.View>
+			            </ViewCell>
+		            </DataTemplate>
+		        </ListView.ItemTemplate>
+	        </ListView>
+            <Button x:Name="Lisa" Text="ADD Friend Member" Clicked="Lisa_Clicked" />
+            <Button x:Name="Lisa1" Text="ADD Family Member" Clicked="Lisa_Clicked_1"  />
+	    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

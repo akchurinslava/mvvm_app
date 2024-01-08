@@ -1,10 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "xwqStaEE8KRpFGampVJWX/B2oeft6yKqZERExlL+tEjltTUOUOl1TXAAx2CQjpr+t37cB/CZ93xL/bie098n0w==",
+  "dgSpecHash": "4bOM3dtE6zmICjWecFvx9nCSMKuQQQXMMEPWGxHvsyWcIAGYHGuduA7eOmDh1GoMocenIMkuZAZ+Oji56HEdcQ==",
   "success": true,
-  "projectFilePath": "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp.iOS/MVVMApp.iOS.csproj",
+  "projectFilePath": "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp.iOS/MVVMApp.iOS.csproj",
   "expectedPackageFiles": [
+    "/Users/my_pc/.nuget/packages/sqlite-net-pcl/1.8.116/sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/sqlitepclraw.bundle_green/2.0.4/sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.4/sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/Users/my_pc/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "/Users/my_pc/.nuget/packages/xamarin.essentials/1.8.1/xamarin.essentials.1.8.1.nupkg.sha512",
     "/Users/my_pc/.nuget/packages/xamarin.forms/5.0.0.2622/xamarin.forms.5.0.0.2622.nupkg.sha512"
   ],

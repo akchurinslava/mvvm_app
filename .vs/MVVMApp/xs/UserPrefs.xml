@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{D886E556-F4A8-4F74-96C4-E831A573CDC5}|Default">
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.2.0" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MVVMApp/MVVMApp/Views/DBFamilyPage.xaml.cs">
+    <Files>
+      <File FileName="MVVMApp/MVVMApp/Views/DBFamilyPage.xaml.cs" Line="24" Column="27" />
+      <File FileName="MVVMApp/MVVMApp/App.xaml.cs" Line="36" Column="144" />
+      <File FileName="MVVMApp/MVVMApp/Models/FamilyRepository.cs" Line="8" Column="25" />
+      <File FileName="MVVMApp/MVVMApp/Views/DBFamilyPage.xaml" Line="1" Column="1" />
+      <File FileName="MVVMApp/MVVMApp/Views/DBListPage.xaml" Line="21" Column="124" />
+      <File FileName="MVVMApp/MVVMApp/Views/DBListPage.xaml.cs" Line="18" Column="31" />
+      <File FileName="MVVMApp/MVVMApp/Views/DBFriendPage.xaml.cs" Line="33" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MVVMApp" expanded="True">
+            <Node name="MVVMApp">
+              <Node name="Models" expanded="True" />
+              <Node name="Views">
+                <Node name="DBFamilyPage.xaml">
+                  <Node name="DBFamilyPage.xaml.cs" selected="True" />
+                </Node>
+                <Node name="DBFriendPage.xaml" expanded="True" />
+                <Node name="DBListPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MVVMApp.Android PreferredExecutionTarget="Android.pixel_5_-_api_33" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
+</Properties>

@@ -1,12 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "gp92b9NKYI1eiWUoIRh0YXJeI1xeUYCzKR7/qLjOgSC1crbsklvl21Xva1g5WToKpudwIUbSECh7AeVhTry6+g==",
+  "dgSpecHash": "5aMvFaJpznrN8aWBARKYlvHSj7CnhUpwAWLhXk8avsqIwVV5UkecNtZ3bhN8Asmmcp0iZPn46nNx7HQjUs/SDw==",
   "success": true,
-  "projectFilePath": "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj",
+  "projectFilePath": "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj",
   "expectedPackageFiles": [
     "/Users/my_pc/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/my_pc/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/sqlite-net-pcl/1.8.116/sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/sqlitepclraw.bundle_green/2.0.4/sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.0.4/sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/Users/my_pc/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/my_pc/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "/Users/my_pc/.nuget/packages/xamarin.essentials/1.8.1/xamarin.essentials.1.8.1.nupkg.sha512",
     "/Users/my_pc/.nuget/packages/xamarin.forms/5.0.0.2622/xamarin.forms.5.0.0.2622.nupkg.sha512"
   ],

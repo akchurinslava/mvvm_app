@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp.Android/MVVMApp.Android.csproj": {}
+    "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp.Android/MVVMApp.Android.csproj": {}
   },
   "projects": {
-    "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp.Android/MVVMApp.Android.csproj": {
+    "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp.Android/MVVMApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp.Android/MVVMApp.Android.csproj",
+        "projectUniqueName": "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp.Android/MVVMApp.Android.csproj",
         "projectName": "MVVMApp.Android",
-        "projectPath": "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp.Android/MVVMApp.Android.csproj",
+        "projectPath": "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp.Android/MVVMApp.Android.csproj",
         "packagesPath": "/Users/my_pc/.nuget/packages/",
-        "outputPath": "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp.Android/obj/",
+        "outputPath": "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
-              "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj": {
-                "projectPath": "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj"
+              "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj": {
+                "projectPath": "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj"
               }
             }
           }
@@ -43,19 +43,23 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2622, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           }
         }
       }
     },
-    "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj": {
+    "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj",
+        "projectUniqueName": "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj",
         "projectName": "MVVMApp",
-        "projectPath": "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj",
+        "projectPath": "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp/MVVMApp.csproj",
         "packagesPath": "/Users/my_pc/.nuget/packages/",
-        "outputPath": "/Users/my_pc/Desktop/mvvm_app/MVVMApp/MVVMApp/obj/",
+        "outputPath": "/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/my_pc/.config/NuGet/NuGet.Config"
@@ -95,6 +99,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2622, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -107,7 +115,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/Users/my_pc/Library/Caches/VisualStudio/17.0/MSBuild/4791_3/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/my_pc/Library/Caches/VisualStudio/17.0/MSBuild/9202_3/RuntimeIdentifierGraph.json"
         }
       }
     }

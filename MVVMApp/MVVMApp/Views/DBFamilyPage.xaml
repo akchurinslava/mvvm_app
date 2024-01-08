@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MVVMApp.Views.DBFamilyPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nimi:" />
+            <Entry Text="{Binding Name}" IsSpellCheckEnabled="False" Unfocused="Entry_Completed" Completed="Entry_Completed" />
+            <Label Text="Email:" />
+            <Entry Text="{Binding Email}" Keyboard="Email" />
+            <Label Text="Phone:" />
+            <Entry Text="{Binding Phone}" Keyboard="Telephone" Unfocused="Entry_Completed_1" Completed="Entry_Completed_1" />
+            <Label Text="Status:" />
+            <Entry Text="{Binding Status}" Unfocused="Entry_Completed_2" Completed="Entry_Completed_2"/>
+            <Label Text="Branch:" />
+            <Entry Text="{Binding Branch}" Unfocused="Entry_Completed_3" Completed="Entry_Completed_3" />
+            <Label Text="Last Visit:" />
+            <DatePicker Date="{Binding LastVisit}" />
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="Salvesta" Text="Save" Clicked="Salvesta_Clicked" />
+                <Button x:Name="Kustuta" Text="Delete" Clicked="Kustuta_Clicked" />
+                <Button x:Name="Loobu" Text="Cancel" Clicked="Loobu_Clicked" />
+	        </StackLayout>
+	    </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
+
