@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=unix
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638387832915667383
+_nugetassetstimestamp=638403272594585187
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=/users/my_pc/desktop/mvvm_app/mvvmapp/mvvmapp.android/mvvmapp.android.csproj
+projectfullpath=/users/my_pc/desktop/work/github/mvvm_app/mvvmapp/mvvmapp.android/mvvmapp.android.csproj
