@@ -15,6 +15,7 @@ namespace MVVMApp.Views
         protected override void OnAppearing()
         {
             friendsList.ItemsSource = App.Database.GetItems();
+            friendsList2.ItemsSource = App.F_database.GetItems();
             base.OnAppearing();
         }
 
@@ -32,6 +33,22 @@ namespace MVVMApp.Views
             DBFriendPage friendPage = new DBFriendPage();
             friendPage.BindingContext = friend;
             await Navigation.PushAsync(friendPage);
+        }
+
+        private async void Lisa_Clicked_1(System.Object sender, System.EventArgs e)
+        {
+            Family family = new Family();
+            DBFamilyPage familyPage = new DBFamilyPage();
+            familyPage.BindingContext = family;
+            await Navigation.PushAsync(familyPage);
+        }
+
+        private async void friendsList2_ItemSelected(System.Object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        {
+            Family selectedfamily = (Family)e.SelectedItem;
+            DBFamilyPage familyPage = new DBFamilyPage();
+            familyPage.BindingContext = selectedfamily;
+            await Navigation.PushAsync(familyPage);
         }
     }
 }

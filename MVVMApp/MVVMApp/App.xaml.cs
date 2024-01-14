@@ -12,6 +12,7 @@ namespace MVVMApp
     {
         public const string DATABASE_NAME = "friends.db";
         public static FriendRepository database;
+        public const string F_DATABASE_NAME = "family.db";
         public static FamilyRepository f_database;
 
         public static FriendRepository Database
@@ -32,7 +33,7 @@ namespace MVVMApp
 	        {
                 if (f_database == null)
                 {
-                    f_database = new FamilyRepository(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), DATABASE_NAME));
+                    f_database = new FamilyRepository(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),F_DATABASE_NAME));
                 }
                 return f_database;
             }

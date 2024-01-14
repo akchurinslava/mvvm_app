@@ -34,3 +34,4 @@
 /Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp/bin/Debug/netstandard2.0/ref/MVVMApp.dll
 /Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp/bin/Debug/netstandard2.0/MVVMApp.pdb
 /Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/my_pc/Desktop/work/github/mvvm_app/MVVMApp/MVVMApp/obj/Debug/netstandard2.0/Views/DBFamilyPage.xaml.g.cs

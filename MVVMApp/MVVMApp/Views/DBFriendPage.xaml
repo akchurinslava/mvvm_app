@@ -6,15 +6,19 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Nimi:" />
-            <Entry Text="{Binding Name}" />
+            <Entry Text="{Binding Name}" IsSpellCheckEnabled="False" Unfocused="Entry_Completed_1" Completed="Entry_Completed_1" />
             <Label Text="Email:" />
-            <Entry Text="{Binding Email}" />
+            <Entry Text="{Binding Email}" Keyboard="Email" />
             <Label Text="Phone:" />
-            <Entry Text="{Binding Phone}" />
+            <Entry Text="{Binding Phone}" Keyboard="Telephone" Unfocused="Entry_Completed_2" Completed="Entry_Completed_2" />
+            <Label Text="Nationality:" />
+            <Entry Text="{Binding Nationality}" Unfocused="Entry_Completed" Completed="Entry_Completed" />
+            <Label Text="Sünniaeg:" />
+            <DatePicker Date="{Binding Birthday}" />
             <StackLayout Orientation="Horizontal">
-                <Button x:Name="Salvesta" Text="Salvesta" Clicked="Salvesta_Clicked" />
-                <Button x:Name="Kustuta" Text="Kustuta" Clicked="Kustuta_Clicked" />
-                <Button x:Name="Loobu" Text="Loobu" Clicked="Loobu_Clicked" />
+                <Button x:Name="Salvesta" Text="Save" Clicked="Salvesta_Clicked" />
+                <Button x:Name="Kustuta" Text="Delete" Clicked="Kustuta_Clicked" />
+                <Button x:Name="Loobu" Text="Cancel" Clicked="Loobu_Clicked" />
 	        </StackLayout>
 	    </StackLayout>
         
